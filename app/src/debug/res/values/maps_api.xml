@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=84:19:39:1A:86:8B:DE:66:1A:FF:3D:01:5E:C6:B0:09:5F:08:90:A8%3Bcom.github.matvapps.citrustesttask
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    84:19:39:1A:86:8B:DE:66:1A:FF:3D:01:5E:C6:B0:09:5F:08:90:A8
+
+    SHA-1 certificate fingerprint:
+    84:19:39:1A:86:8B:DE:66:1A:FF:3D:01:5E:C6:B0:09:5F:08:90:A8
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAfpoZHIpZNM4s2VEo6HIWmy7HEO5n0WJY </string>
+    <string name="bing_maps_key" templateMergeStrategy="preserve" translatable="false">AvwAHfGDafysP3AYyo5zaOT1-o1zuG-YuVBo1ZphUOLUCzaxHIi1z13fiJ3IaE45</string>
+    <string name="tomtom_maps_key" templateMergeStrategy="preserve" translatable="false">oNxKJ116ooPQQqfk52GyPQvMEEFq56YC</string>
+
+</resources>

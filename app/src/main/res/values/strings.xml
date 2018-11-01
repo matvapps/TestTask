@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TestTask</string>
+
+    <string-array name="pref_mapProviders_entries">
+        <item>Google maps</item>
+        <item>TomTom maps</item>
+    </string-array>
+
+    <string-array name="pref_mapProviders_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string-array name="pref_geocodeServices_entries">
+        <item>Bing reverse geocoding service</item>
+        <item>TomTom reverse geocoding service</item>
+    </string-array>
+
+    <string-array name="pref_geocodeServices_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="country">Country: %s</string>
+    <string name="city">City: %s</string>
+    <string name="street">Street: %s</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_chooseMapProvider"
+        android:title="Choose map provider"
+        android:dialogTitle="Choose map provider"
+        android:entries="@array/pref_mapProviders_entries"
+        android:entryValues="@array/pref_mapProviders_values"
+        android:defaultValue="0" />
+
+
+    <ListPreference
+        android:key="pref_chooseGeocodeService"
+        android:title="Choose geocode service"
+        android:dialogTitle="Choose geocode service"
+        android:entries="@array/pref_geocodeServices_entries"
+        android:entryValues="@array/pref_geocodeServices_values"
+        android:defaultValue="0" />
+
+</PreferenceScreen>
